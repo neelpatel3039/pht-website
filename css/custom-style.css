@@ -1,0 +1,27 @@
+.logo-container{
+    
+}
+.logo{
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+/* The slow way */
+.make-it-slow {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+/* Transition to a bigger shadow on hover */
+.make-it-slow:hover {
+    -webkit-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    -moz-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+}
+@media only screen and (max-width: 600px) {
+    .logo{
+        border-radius: 50%;
+        height: 3em;
+        width: 3em;
+    }
+}
