@@ -1,0 +1,11 @@
+EXTRA LARGE:
+<a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865?_r=widgets|UrbanProBadge|View My Profile|336x132|2123111" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@336x132.png" alt="View My Profile" style="max-width: 100%;"></a>
+
+LARGE:
+<a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865?_r=widgets|UrbanProBadge|View My Profile|300x117|2123111" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@300x117.png" alt="View My Profile" style="max-width: 100%;"></a>
+
+MEDIUM:
+<a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865?_r=widgets|UrbanProBadge|View My Profile|160x63|2123111" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@160x63.png" alt="View My Profile" style="max-width: 100%;"></a>
+
+SMALL:
+<a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865?_r=widgets|UrbanProBadge|View My Profile|120x47|2123111" target="_blank" style="display: inline-block;"><img src="https://www.urbanpro.com/assets/new-ui/badges/View My Profile@120x47.png" alt="View My Profile" style="max-width: 100%;"></a>

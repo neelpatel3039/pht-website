@@ -1,0 +1,110 @@
+.logo-container{
+    
+}
+.logo{
+    border-radius: 50%;
+    height: 4em;
+    width: 4em;
+}
+
+.service-icon{
+    height: 4em;
+    width: 4em;
+    margin-bottom: 2em;
+}
+
+/* The slow way */
+.call-for-action:link {
+    color: white;
+}
+  
+/* visited link */
+.call-for-action:visited {
+    color: white;
+}
+  
+/* mouse over link */
+.call-for-action:hover {
+    color: white;
+    text-decoration: none;
+}
+  
+  /* selected link */
+.call-for-action:active {
+    color: white;
+}
+
+.make-it-slow{
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 18px;
+    padding: 14px;
+    border-radius: 50px;
+    color: white;
+    outline:none;
+    background: linear-gradient(to right, #08ABE6, #070633);
+}
+
+.make-it-slow {
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.make-it-slow:focus{
+    outline:none;
+}
+
+/* Transition to a bigger shadow on hover */
+.make-it-slow:hover {
+    -webkit-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    -moz-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    outline:none;
+}
+
+.WhatsApp{
+    background: #52c234;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right,#52c234, #061700);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right,#52c234, #061700); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    padding: 14px;
+}
+
+.WhatsApp:hover{
+    -webkit-box-shadow: 0px 0px 61px -8px rgba(73, 174, 46,1);
+    -moz-box-shadow: 0px 0px 61px -8px rgba(73, 174, 46,1);
+    box-shadow: 0px 0px 61px -8px rgba(73, 174, 46,1);
+    outline:none;
+}
+
+@media only screen and (max-width: 600px) {
+    .logo{
+        border-radius: 50%;
+        height: 3em;
+        width: 3em;
+    }
+    .make-it-slow{
+        font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 15px;
+        padding: 16px;
+    }
+}
+
+/*------*/
+/* width */
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: rgba(11,165,235,1); 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #181F30; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: white; 
+  }
