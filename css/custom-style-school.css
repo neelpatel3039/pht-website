@@ -1,3 +1,4 @@
+
 .logo-container{
     
 }
@@ -41,7 +42,7 @@
     border-radius: 50px;
     color: white;
     outline:none;
-    background: linear-gradient(to right, #08ABE6, #070633);
+    background: linear-gradient(to right,#EFD06A,#061700);
 }
 
 .make-it-slow {
@@ -55,9 +56,9 @@
 
 /* Transition to a bigger shadow on hover */
 .make-it-slow:hover {
-    -webkit-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
-    -moz-box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
-    box-shadow: 0px 0px 61px -8px rgba(11,165,235,1);
+    -webkit-box-shadow: 0px 0px 61px -8px rgba(253, 254, 0,1);
+    -moz-box-shadow: 0px 0px 61px -8px rgba(253, 254, 0,1);
+    box-shadow: 0px 0px 61px -8px rgba(253, 254, 0,1);
     outline:none;
 }
 
@@ -96,7 +97,7 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: rgba(11,165,235,1); 
+    background: #EFD06A; 
   }
    
   /* Handle */

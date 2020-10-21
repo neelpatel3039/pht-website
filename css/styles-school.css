@@ -6095,10 +6095,10 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background: #FDFC47;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #2E482E, #00FF00, #FDFC47);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #2E482E, #00FF00, #FDFC47); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  /*background-color: #2E482E !important;*/
+  /*background: #FDFC47;   fallback for old browsers */
+  /*background: -webkit-linear-gradient(to right, #2E482E, #00FF00, #FDFC47);   Chrome 10-25, Safari 5.1-6 */
+  /*background: linear-gradient(to right, #2E482E, #00FF00, #FDFC47);  W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background-color: #142976 !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
