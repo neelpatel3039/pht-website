@@ -19,6 +19,20 @@
         <link href="css/styles-school.css" rel="stylesheet" />
         <link href="css/custom-style-school.css" rel="stylesheet">
         <link href="css/social-media.css" rel="stylesheet">
+        <style>
+            .carousel-inner img {
+                width: 55%;
+                height: 55%;
+                border-radius: 6px;
+            }
+            @media only screen and (max-width: 600px) {
+                .carousel-inner img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 6px;
+                }
+            }
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -32,7 +46,9 @@
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Why Us?</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Subjects Taught</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Subjects</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#socialmedia">Social Media</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index-engg.html"><span class="badge badge-dark" style="font-size: 13px;">Go to Engg. Section→</span></a></li>
                     </ul>
@@ -167,32 +183,54 @@
                 </div>
             </div>
         </div>
-        <section class="page-section bg-dark text-white">
+        <section id="gallery" class="page-section bg-dark text-white">
             <center>
-                <h2 class="mt-0 text-white">Virtual Tour</h2>
+                <h2 class="mt-0 text-white">PHT Gallery</h2>
                 <hr class="divider my-4" />
-                <div class="row container">
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                                <img src="..." class="d-block w-100" alt="...">
-                            </div>
+                <div id="slideshow-class-gallery" class="carousel slide" data-ride="carousel">
+
+                    <ul class="carousel-indicators">
+                        <li data-target="#slideshow-class-gallery" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="1"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="2"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="3"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="4"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="5"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="6"></li>
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/virtual-tour/1.png" alt="">
                         </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Previous</span>
-                        </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                            <span class="sr-only">Next</span>
-                        </a>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/2.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/3.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/4.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/5.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/6.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/7.png" alt="">
+                        </div>
                     </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#slideshow-class-gallery" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideshow-class-gallery" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
                 </div>
             </center>
         </section>
@@ -255,14 +293,19 @@
                     </div>
                 </div>
                 <br><br><br>
+                <br><br><br>
                 <center><h2 class="mt-0 text-white">PHT Classes Location (Approx Area)</h2></center>
                 <hr class="divider my-4" />
-                <iframe width="1080" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1080&amp;height=300&amp;hl=en&amp;q=Rokadya%20Lane%20Mumbai+(PHT%20Classes%20Location%20(Approx%20Area))&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.add-map.net/'>google maps directions embed</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=d8a0f17371a449daf6e4a163214f75c772de314a'></script>
+                <span class="d-block badge badge-light">Rokadia Lane, Near Gokul<br>Hotel - SVP Road<br>Borivali West</span>
             </div>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Choose to Shine & Call Now!</div></div>
+            <center>
+                <a href='https://freehitcounters.org/'>Free HitCounter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3665770ee645ccd99c4cdaa78eff06ffb65f0864'></script>
+                <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/758522/t/0"></script>
+            </center>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

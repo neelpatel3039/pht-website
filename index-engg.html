@@ -19,6 +19,24 @@
         <link href="css/styles.css" rel="stylesheet" />
         <link href="css/custom-style.css" rel="stylesheet">
         <link href="css/social-media.css" rel="stylesheet">
+        <style>
+            .carousel-inner img {
+                width: 55%;
+                height: 55%;
+                border-radius: 6px;
+            }
+            @media only screen and (max-width: 600px) {
+                .carousel-inner img {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 6px;
+                }
+                .testimonial-item{
+                    margin: 3px;
+                }
+            }
+            #more {display: none;}
+        </style>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -33,6 +51,8 @@
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Batches</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#gallery">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#socialmedia">Social Media</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact Us</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index-school.html"><span class="badge badge-dark" style="font-size: 13px;">Go to School Section→</span></a></li>
                     </ul>
@@ -123,17 +143,54 @@
         <!-- Call to Action-->
         <section class="page-section bg-dark text-white">
             <div class="container text-center">
-                <h4 class="mb-4">
-                    <img src="assets/icons/quote-2.png" alt="" style="width: 1.5em; height: 1.5em; margin-bottom: 2em;">
-                    <div class="container">
-                        <p class="text-white">
-                            Each student has in him or her to score high & become master of their field, 
-                            they just need right tutoring & we're here to provide just that.
-                            <br><br>
-                            - Pratham Sir
-                        </p>
+                <h2 class="text-center mt-0">Testimonials</h2>
+                <hr class="divider my-4" />
+                <div class="row">
+                    <div class="col-md-4 testimonial-item">
+                        <div class="card bg-primary" style="max-width: 540px;">
+                            <br>    
+                            <center>
+                                <img src="assets/img/testimonial/sg.jpg" class="card-img" alt="..." style="border-radius: 50%; width: 5em; height: 5em;">
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Suparna Ghosh</h5>
+                                <span class="badge badge-pill badge-success">Chemical Engineering</span>
+                                <p class="card-text" style="font-size: 14px;">I have completed my diploma from Shri Bhagubhai Mafatlal Polytechnic in Chemical Engineering. I have studied in PHT for 4 years. Under the tutoring of Prathams sir, I scored an awesome 86% score in my Diploma & as a result got admission into DJ Sanghvi College of Engineering. I can say this with an assurance that in PHT, you will get private attention where you can learn in small groups, ask doubts without fear and keep growing!</p>
+                            </div>
+                        </div>
                     </div>
-                </h4>
+                    <div class="col-md-4 testimonial-item">
+                        <div class="card bg-primary" style="max-width: 540px;">
+                            <br>    
+                            <center>
+                                <img src="assets/img/testimonial/rr.jpg" class="card-img" alt="..." style="border-radius: 50%; width: 5em; height: 5em;">
+                            </center>
+                            <div class="card-body">
+                                <h5 class="card-title">Rahul Rathod</h5>
+                                <span class="badge badge-pill badge-success">Mechanical Engineering</span>
+                                <p class="card-text" style="font-size: 14px;">
+                                    Hey there, I am from Mechanical department and have completed a diploma from Shri Bhagubhai Mafatlal Polytechnic. When I was about to start my 5th semester, a major obstacle entered my life. Since I had 13 KTs, I wasn't allowed to proceed further. Initially, I was depressed and started feeling guilty about what I had done but then some of my friends suggested me to join PHT and mentioned that it was known to provide impactful coaching. 
+                                    <span id="dots">...</span>
+                                    <span id="more">
+                                        Then I had a conversation with Pratham sir about how I was planning to clear all my 13 KT's.
+                                        I still remember that while hearing my story Pratham sir was very calm and just said we will start from tomorrow itself. Afterwards, as days passed I started to gain confidence that 'I can clear all my KTs'. This confidence was because of the calm and easy methods of studying which sir provided me. When all my exams ended, it was time for my results. The results came, and I had managed to cleared all my KTs in my first attempt (after the normal exams) which was just amazing! Seeing my results I was so delighted and Pratham sir was satisfied too. Then it was time for 5 semesters and of-course with the guidance from sir I ended up scoring a whopping 85%. In the end, I would like to say to all the engineering students out there to approach PHT for excellent guidance and tutoring.
+                                    </span>
+                                </p>
+                                <button onclick="myFunction()" id="myBtn" class="btn btn-light" style="padding: 0px; font-size: 12px;">Read more</button>
+                            </div>      
+                        </div>
+                    </div>
+                    <div class="col-md-4 testimonial-item">
+                        <div class="card bg-primary" style="max-width: 540px;">
+                            <div class="card-body">
+                                <br><br><br>
+                                <h5 class="card-title">For more testimonials..</h5>
+                                <a href="https://www.instagram.com/pht_engg_classes/" target="_blank" class="btn btn-dark">Check Instagram ↦</a>
+                                <br><br><br>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!-- Portfolio-->
@@ -172,46 +229,99 @@
                 </div>
             </div>
         </div>
-        <section class="page-section bg-dark text-white">
+        <section id="gallery" class="page-section bg-dark text-white">
             <center>
-                <h2 class="mt-0 text-white">Social Media</h2>
+                <h2 class="mt-0 text-white">PHT Gallery</h2>
                 <hr class="divider my-4" />
-                <div class="row container">
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <div class="card-body" style="padding: 5px;">
-                                <h5 class="card-title text-primary">LinkedIn</h5>
-                                <a href="https://www.linkedin.com/company/pratham-humbal-tutorials" target="_blank" class="btn btn-primary">Open Link ↦</a>
-                            </div>
+                <div id="slideshow-class-gallery" class="carousel slide" data-ride="carousel">
+
+                    <ul class="carousel-indicators">
+                        <li data-target="#slideshow-class-gallery" data-slide-to="0" class="active"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="1"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="2"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="3"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="4"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="5"></li>
+                        <li data-target="#slideshow-class-gallery" data-slide-to="6"></li>
+                    </ul>
+
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="assets/img/virtual-tour/1e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/2e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/3e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/4e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/5e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/6e.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="assets/img/virtual-tour/7e.png" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <div class="card-body" style="padding: 5px;">
-                                <h5 class="card-title text-primary">Instagram</h5>
-                                <a href="https://www.instagram.com/pht_engg_classes/" target="_blank" class="btn btn-primary">Open Link ↦</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <div class="card-body" style="padding: 5px;">
-                                <h5 class="card-title text-primary">UrbanPro</h5>
-                                <a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865" target="_blank" class="btn btn-primary">Open Link ↦</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-3">
-                        <div class="card">
-                            <div class="card-body" style="padding: 5px;">
-                                <h5 class="card-title  text-primary">Facebook</h5>
-                                <a href="https://www.facebook.com/pratham.humbal.1" class="btn btn-primary" target="_blank">Open Link ↦</a>
-                            </div>
-                        </div>
-                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#slideshow-class-gallery" data-slide="prev">
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#slideshow-class-gallery" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+
                 </div>
             </center>
         </section>
+        <div id="socialmedia" class="page-section">
+            <div class="container-fluid p-0">
+                <center>
+                    <h2 class="mt-0 text-black">Social Media</h2>
+                    <hr class="divider my-4" />
+                    <div class="row container">
+                        <div class="col-sm-3">
+                            <div class="card bg-primary">
+                                <div class="card-body" style="padding: 5px;">
+                                    <h5 class="card-title text-white">LinkedIn</h5>
+                                    <a href="https://www.linkedin.com/company/pratham-humbal-tutorials" target="_blank" class="btn btn-dark">Open Link ↦</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card bg-primary">
+                                <div class="card-body" style="padding: 5px;">
+                                    <h5 class="card-title text-white">Instagram</h5>
+                                    <a href="https://www.instagram.com/pht_engg_classes/" target="_blank" class="btn btn-dark">Open Link ↦</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card bg-primary">
+                                <div class="card-body" style="padding: 5px;">
+                                    <h5 class="card-title text-white">UrbanPro</h5>
+                                    <a href="https://www.urbanpro.com/mumbai/pratham-humbal-tutorials-pht-borivali-west/25566865" target="_blank" class="btn btn-dark">Open Link ↦</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3">
+                            <div class="card bg-primary">
+                                <div class="card-body" style="padding: 5px;">
+                                    <h5 class="card-title  text-white">Facebook</h5>
+                                    <a href="https://www.facebook.com/pratham.humbal.1" class="btn btn-dark" target="_blank">Open Link ↦</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </center>
+            </div>
+        </div>
         <!-- Contact-->
         <section class="page-section bg-primary text-white" id="contact">
             <div class="container">
@@ -242,13 +352,35 @@
                 <br><br><br>
                 <center><h2 class="mt-0 text-white">PHT Classes Location (Approx Area)</h2></center>
                 <hr class="divider my-4" />
-                <iframe width="1080" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=1080&amp;height=300&amp;hl=en&amp;q=Rokadya%20Lane%20Mumbai+(PHT%20Classes%20Location%20(Approx%20Area))&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe> <a href='https://www.add-map.net/'>google maps directions embed</a> <script type='text/javascript' src='https://maps-generator.com/google-maps-authorization/script.js?id=d8a0f17371a449daf6e4a163214f75c772de314a'></script>
+                <span class="d-block badge badge-light">Rokadia Lane, Near Gokul<br>Hotel - SVP Road<br>Borivali West</span>
             </div>
         </section>
         <!-- Footer-->
         <footer class="bg-light py-5">
             <div class="container"><div class="small text-center text-muted">Choose to Shine & Call Now!</div></div>
+            <center>
+                <a href='https://freehitcounters.org/'>Free HitCounter</a> <script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=3665770ee645ccd99c4cdaa78eff06ffb65f0864'></script>
+                <script type="text/javascript" src="https://www.freevisitorcounters.com/en/home/counter/758522/t/0"></script>
+            </center>
         </footer>
+        <!--Read More Button JS-->
+        <script>
+            function myFunction() {
+                var dots = document.getElementById("dots");
+                var moreText = document.getElementById("more");
+                var btnText = document.getElementById("myBtn");
+            
+                if (dots.style.display === "none") {
+                dots.style.display = "inline";
+                btnText.innerHTML = "Read more"; 
+                moreText.style.display = "none";
+                } else {
+                dots.style.display = "none";
+                btnText.innerHTML = "Read less"; 
+                moreText.style.display = "inline";
+                }
+            }
+        </script>
         <!-- Bootstrap core JS-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.bundle.min.js"></script>
